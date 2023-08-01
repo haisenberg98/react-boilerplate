@@ -31,6 +31,9 @@
   body {
     overflow: auto; /* Show the overflow on mobile screens with scrolling */
   }
+  .sliding-menu {
+    width: 72rem;
+  }
 }
 
 .sliding-menu {

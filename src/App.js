@@ -167,7 +167,7 @@ function App() {
         </div>
       </div>
       <div
-        className={`sliding-menu ${isOpen ? 'open' : ''} p-6 w-full`}
+        className={`sliding-menu ${isOpen ? 'open' : ''} p-6`}
         ref={slidingMenuRef}
       >
         <div>

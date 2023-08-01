@@ -32,7 +32,7 @@
 /* Styles for mobile screens */
 @media (max-width: 767px) {
   body {
-    overflow: auto; /* Show the overflow on mobile screens with scrolling */
+    overflow-x: hidden;
   }
   .sliding-menu {
     width: 24rem;

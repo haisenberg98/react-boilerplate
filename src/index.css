@@ -36,8 +36,8 @@
 .sliding-menu {
   position: absolute;
   top: 0;
-  right: -400px; /* Initially hidden off the screen */
-  width: 400px;
+  right: -450px; /* Initially hidden off the screen */
+  width: 450px;
   height: 100vh;
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);

@@ -21,9 +21,6 @@
 
 /* Styles for big screens (e.g., desktop) */
 @media (min-width: 768px) {
-  body {
-    overflow: hidden; /* Hide the overflow on big screens */
-  }
   .sliding-menu {
     width: 28rem;
   }

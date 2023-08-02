@@ -19,11 +19,6 @@
   @apply border-b border-borderColor pb-1;
 }
 
-#product-details {
-  overflow-x: hidden;
-  height: 100vh;
-}
-
 /* Styles for big screens (e.g., desktop) */
 @media (min-width: 768px) {
   .sliding-menu {

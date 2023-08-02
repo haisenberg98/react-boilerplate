@@ -108,8 +108,8 @@ function App() {
   }
 
   return (
-    <div id='product-details'>
-      <div className='flex flex-col my-6 space-y-6 justify-center max-w-7xl mx-auto px-6 md:space-y-8 relative'>
+    <div id='product-details' className='relative'>
+      <div className='flex flex-col my-6 space-y-6 justify-center max-w-7xl mx-auto px-6 md:space-y-8 '>
         {/* Header */}
         <div className='bg-customGray flex justify-end py-2 px-6 mb-6 text-customDarkGray text-sm'>
           <a href='#' className='menu-trigger-button' onClick={toggleMenu}>

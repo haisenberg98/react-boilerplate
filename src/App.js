@@ -108,7 +108,7 @@ function App() {
   }
 
   return (
-    <div id='product-details' className='sm:overflow-x-hidden'>
+    <div id='product-details'>
       <div className='flex flex-col my-6 space-y-6 justify-center max-w-7xl mx-auto px-6 md:space-y-8 relative'>
         {/* Header */}
         <div className='bg-customGray flex justify-end py-2 px-6 mb-6 text-customDarkGray text-sm'>
@@ -125,7 +125,7 @@ function App() {
           {/* Product image */}
           <div className='md:w-1/2'>
             <img
-              className='hover:scale-105 transition-all duration-150'
+              className='md:hover:scale-105 transition-all duration-150'
               src={product.imageURL}
               alt={product.title}
             />

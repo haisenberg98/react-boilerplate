@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../denny-project"
+		},
+		{
+			"path": "../jewelry-ecommerce"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

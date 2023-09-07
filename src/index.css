@@ -3,8 +3,9 @@
 @import 'tailwindcss/utilities';
 
 @layer base {
-  h3,
-  h2 {
+  h1,
+  h2,
+  h3 {
     @apply text-2xl;
     color: #222222;
   }
@@ -15,35 +16,10 @@
   }
 }
 
-.custom-border {
-  @apply border-b border-borderColor pb-1;
-}
-
 /* Styles for big screens (e.g., desktop) */
 @media (min-width: 768px) {
-  .sliding-menu {
-    width: 28rem;
-  }
 }
 
 /* Styles for mobile screens */
 @media (max-width: 767px) {
-  .sliding-menu {
-    width: 24rem;
-  }
-}
-
-.sliding-menu {
-  position: absolute;
-  top: 0;
-  right: -450px; /* Initially hidden off the screen */
-  height: 100vh;
-  background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  transition: right 0.3s ease-in-out; /* CSS transition for smooth sliding effect */
-  z-index: 9999; /* Make sure the menu is above other elements */
-}
-
-.sliding-menu.open {
-  right: 0; /* Show the menu by setting right to 0 */
 }

@@ -18,6 +18,9 @@ module.exports = {
         customLightGray: '#c4c4c4',
         customDarkGray: '#636569',
       },
+      fontFamily: {
+        customPrimary: ['Inter', 'sans-serif'],
+      },
     },
   },
   plugins: [],

@@ -1,16 +1,19 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../denny-project"
-		},
-		{
-			"path": "../jewelry-ecommerce"
-		}
-	],
-	"settings": {
-		"git.ignoreLimitWarning": true
-	}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../denny-project"
+    },
+    {
+      "path": "../jewelry-ecommerce"
+    },
+    {
+      "path": "../hairylemon-test-project"
+    }
+  ],
+  "settings": {
+    "git.ignoreLimitWarning": true
+  }
 }

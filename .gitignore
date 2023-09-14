@@ -1,5 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+
 #vs code workspace
 react-boilerplate.code-workspace
 
@@ -7,6 +8,7 @@ react-boilerplate.code-workspace
 /node_modules
 /.pnp
 .pnp.js
+Dependencies Install.txt
 
 # testing
 /coverage

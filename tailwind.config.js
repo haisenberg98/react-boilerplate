@@ -11,15 +11,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        customGray: '#F6F6F7',
-        customDarkGray: '#888888',
-        customDark: '#222222',
+        customPrimary: '#dc3522',
+        customSecondary: '#f7f5ec',
         customWhite: '#f4f4f4',
-        customLightGray: '#c4c4c4',
-        customDarkGray: '#636569',
+        customDarkGray: '#51595e',
+        customLighterDarkGray: '#647589',
       },
       fontFamily: {
-        customPrimary: ['Inter', 'sans-serif'],
+        customPrimary: ['Monserrat', 'sans-serif'],
+        customSecondary: ['Roboto', 'sans-serif'],
       },
     },
   },

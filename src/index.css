@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;&display=swap');
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/public/fonts/FuturaPTBook.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
@@ -12,15 +17,13 @@
   h1,
   h2,
   h3 {
-    @apply text-2xl text-customDarkGray;
+    @apply text-2xl;
+    color: #222222;
   }
 
   p {
-    @apply text-sm font-customSecondary text-customLighterDarkGray;
-  }
-
-  svg {
-    display: inline;
+    @apply text-sm;
+    color: #888888;
   }
 }
 
